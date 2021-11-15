@@ -5,7 +5,7 @@ One of the goals of the study is to identify new nuclear sites following translo
 Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for reproducibility.
 
 
-**To launch the pipeline you we need :
+## To launch the pipeline you we need :
 
 - files that should be in data/mydatalocal/atacseq/ (subsets and bowtie2 index)
 
@@ -29,7 +29,7 @@ Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for 
 	- bedtools
 
 
-**Launching the pipeline 
+## Launching the pipeline 
 
 snakemake  --use-conda --cores all 
 
@@ -42,10 +42,10 @@ snakemake  --use-conda --cores all
 	│ 
 	├── data
 	│   └── mydatalocal
-	│         └── atacseq 
+	│        └── atacseq 
         │                ├── bowtie2
 	│                └──subset
 	└── results
   
-  **WORKFLOW
+ ## WORKFLOW STEPS
   Same steps as in (https://github.com/dijashis/Projet_HPC)
