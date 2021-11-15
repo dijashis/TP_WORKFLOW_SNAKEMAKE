@@ -36,8 +36,10 @@ Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for 
 
 ## Launching the pipeline 
 
-snakemake  --use-conda --cores all 
+`snakemake  --use-conda` . Need to activate snakemake in conda before. 
 
+
+## Directory ##
 	├── .gitignore
 	├── README.md
 	├──Snakefile
