@@ -12,15 +12,15 @@ Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for 
 
 ## To launch the pipeline you we need :
 
-*  files that should be in _data/mydatalocal/atacseq/_ (_subsets_ and _bowtie2_ index)
+*  Files that should be in **data/mydatalocal/atacseq/** (**subsets** and **bowtie2** index)
 
-*  One config files detailling all the different options and data needed to launch the pipe. _config.yaml_ in the config directory 
+*  One config files detailling all the different options and data needed to launch the pipe. **config.yaml** in the config directory 
 
-*  *Snakefiles* (entrypoint of the workflow contains rules and scripts)
+*  **Snakefiles** (entrypoint of the workflow contains rules and scripts)
 
-*  _env.yaml_ (need conda with bioconda and conda-forge and dependancies for all rules in snakefile)
+*  **env.yaml** ( we need conda with bioconda and conda-forge and the following dependancies for all rules in snakefile )
 
-**_dependencies_:
+**dependencies**:
 
  	- FastQC==0.11.9
 	- Cutadapt==3.5                            
@@ -53,4 +53,4 @@ snakemake  --use-conda --cores all
 	└── results
   
  ## WORKFLOW STEPS
-  Same steps as in (https://github.com/dijashis/Projet_HPC)
+  Same steps as in this repository (https://github.com/dijashis/Projet_HPC) 
