@@ -1,19 +1,24 @@
+#ATACSEQ WORKFLOW FOR High Performance Computing Class
+
+_DIOP Khadidiatou_
+
+_Université Clermont auvergne HPC 2021_
 
 
-This is a ATACSeq snakemake pipeline for High Performance Computing course. We first did the ATACSeq data analysis with slurm (https://github.com/dijashis/Projet_HPC) . We use ATAC-Seq data from Gomez-Cabrero et al. (2019) from a murine B3 cell line. 
+This is a ATACSeq snakemake pipeline for High Performance Computing course. We first did the ATACSeq data analysis with slurm (https://github.com/dijashis/Projet_HPC) . We use ATAC-Seq data from *Gomez-Cabrero et al. (2019)* from a murine B3 cell line. 
 One of the goals of the study is to identify new nuclear sites following translocation of the transcription factor Ikaros after exposure to the drug Tamoxifen The original data set has 50,000 cells collected per sample 3 replicates per sample and 2 cell stages: 0 and 24h (harvest time after drug treatment). 
 Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for reproducibility.
 
 
 ## To launch the pipeline you we need :
 
-- files that should be in data/mydatalocal/atacseq/ (subsets and bowtie2 index)
+*  files that should be in _data/mydatalocal/atacseq/_ (_subsets_ and _bowtie2_ index)
 
-- One config files detailling all the different options and data needed to launch the pipe. config.yaml in the config directory 
+*  One config files detailling all the different options and data needed to launch the pipe. _config.yaml_ in the config directory 
 
-- snakefiles (entrypoint of the workflow contains rules and scripts)
+*  _Snakefiles_ (entrypoint of the workflow contains rules and scripts)
 
-- env.yaml (need conda with bioconda and conda-forge and dependancies for all rules in snakefile)
+*  _env.yaml_ (need conda with bioconda and conda-forge and dependancies for all rules in snakefile)
 
 **dependencies:
 
