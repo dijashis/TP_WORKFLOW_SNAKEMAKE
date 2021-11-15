@@ -1,4 +1,4 @@
-#ATACSEQ WORKFLOW FOR High Performance Computing Class
+# ATACSEQ WORKFLOW FOR High Performance Computing Class
 
 _DIOP Khadidiatou_
 
@@ -48,7 +48,7 @@ snakemake  --use-conda --cores all
 	├── data
 	│   └── mydatalocal
 	│        └── atacseq 
-        │                ├── bowtie2
+        |                ├── bowtie2
 	│                └──subset
 	└── results
   
