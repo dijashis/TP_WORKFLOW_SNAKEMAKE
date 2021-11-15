@@ -1,8 +1,11 @@
-This is a ATACSeq snakemake pipeline for High Performance Computing course. We first did the ATACSeq data analysis with slurm (https://github.com/dijashis/Projet_HPC) . We use ATAC-Seq data from Gomez-Cabrero et al. (2019) from a murine B3 cell line. One of the goals of the study is to identify new nuclear sites following translocation of the transcription factor Ikaros after exposure to the drug Tamoxifen .The original data set has 50,000 cells collected per sample 3 replicates per sample and 2 cell stages: 0 and 24h (harvest time after drug treatment). 
+
+
+This is a ATACSeq snakemake pipeline for High Performance Computing course. We first did the ATACSeq data analysis with slurm (https://github.com/dijashis/Projet_HPC) . We use ATAC-Seq data from Gomez-Cabrero et al. (2019) from a murine B3 cell line. 
+One of the goals of the study is to identify new nuclear sites following translocation of the transcription factor Ikaros after exposure to the drug Tamoxifen The original data set has 50,000 cells collected per sample 3 replicates per sample and 2 cell stages: 0 and 24h (harvest time after drug treatment). 
 Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for reproducibility.
 
 
-##To launch the pipeline you we need :
+**To launch the pipeline you we need :
 
 - files that should be in data/mydatalocal/atacseq/ (subsets and bowtie2 index)
 
@@ -12,35 +15,36 @@ Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for 
 
 - env.yaml (need conda with bioconda and conda-forge and dependancies for all rules in snakefile)
 
-##dependencies:
-  - fastqc==0.11.9
-  - cutadapt==3.5
-  - bowtie2
-  - samtools==1.14
-  - r-base==4.1.1
-  - openjdk==10.0.2
-  - picard==2.26.5
-  - deeptools
-  - macs2
-  - bedtools
+**dependencies:
+ 	- FastQC==0.11.9
+	- Cutadapt==3.5                            
+	- Bowtie2                                
+	- samtools==1.14
+	- r-base==4.1.1
+        - openjdk==10.0.2
+	- picard==2.26.5
+	- deepTools 
+	- MACS2
+	- bedtools
 
-##Launching the pipeline 
+
+**Launching the pipeline 
 
 snakemake  --use-conda --cores all
 
 	├── .gitignore
 	├── README.md
 	├──Snakefile
-  ├── env.yaml
+        ├── env.yaml
 	├── config
 	│      ├── config.yaml
 	│ 
 	├── data
 	│   └── mydatalocal
 	│         └── atacseq 
-  │                ├── bowtie2
+        │                ├── bowtie2
 	│                └──subset
 	└── results
   
-  ##WORKFLOW
+  **WORKFLOW
   Same steps as in (https://github.com/dijashis/Projet_HPC)
