@@ -20,7 +20,7 @@ Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for 
 
 *  _env.yaml_ (need conda with bioconda and conda-forge and dependancies for all rules in snakefile)
 
-**dependencies:
+**_dependencies_:
 
  	- FastQC==0.11.9
 	- Cutadapt==3.5                            
@@ -48,7 +48,7 @@ snakemake  --use-conda --cores all
 	├── data
 	│   └── mydatalocal
 	│        └── atacseq 
-        |                ├── bowtie2
+     |             ├── bowtie2
 	│                └──subset
 	└── results
   
