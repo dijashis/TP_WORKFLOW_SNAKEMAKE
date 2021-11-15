@@ -14,7 +14,7 @@ Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for 
 
 *  Files that should be in `data/mydatalocal/atacseq/` (**subsets** and **bowtie2** index)
 
-*  One config files detailling all the different options and data needed to launch the pipe. `config.yaml` in the config directory 
+*  One config files detailling all the different options and data needed to launch the pipe. `config/config.yaml` in the config directory 
 
 *  `Snakefiles` (entrypoint of the workflow contains rules and scripts)
 
