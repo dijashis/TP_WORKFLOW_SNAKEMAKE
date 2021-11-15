@@ -27,7 +27,7 @@ Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for 
 	- Bowtie2                                
 	- samtools==1.14
 	- r-base==4.1.1
-        - openjdk==10.0.2
+	- openjdk==10.0.2
 	- picard==2.26.5
 	- deepTools 
 	- MACS2
