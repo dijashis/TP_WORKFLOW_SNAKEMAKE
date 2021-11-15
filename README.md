@@ -1,8 +1,8 @@
 # ATACSEQ WORKFLOW FOR High Performance Computing Class
 
-<h1>DIOP Khadidiatou</h1>
+### DIOP Khadidiatou
 
-_Université Clermont auvergne HPC 2021_
+### Université Clermont Auvergne HPC 2021
 
 
 This is a ATACSeq snakemake pipeline for High Performance Computing course. We first did the ATACSeq data analysis with slurm (https://github.com/dijashis/Projet_HPC) . We use ATAC-Seq data from *Gomez-Cabrero et al. (2019)* from a murine B3 cell line. 
