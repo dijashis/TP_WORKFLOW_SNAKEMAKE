@@ -1,3 +1,12 @@
+################################################
+#ATACSeq snakemake WF
+# Author: DIOP Khadidiatou
+# HPC PROJECT
+################################################
+
+
+
+
 configfile: "config/config.yaml",
 
 rule all:
