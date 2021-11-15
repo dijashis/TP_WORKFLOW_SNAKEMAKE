@@ -16,7 +16,7 @@ Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for 
 
 *  One config files detailling all the different options and data needed to launch the pipe. _config.yaml_ in the config directory 
 
-*  _Snakefiles_ (entrypoint of the workflow contains rules and scripts)
+*  *Snakefiles* (entrypoint of the workflow contains rules and scripts)
 
 *  _env.yaml_ (need conda with bioconda and conda-forge and dependancies for all rules in snakefile)
 
