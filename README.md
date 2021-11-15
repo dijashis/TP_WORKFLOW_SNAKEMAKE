@@ -41,7 +41,7 @@ snakemake  --use-conda --cores all
 	├── .gitignore
 	├── README.md
 	├──Snakefile
-     ├── env.yaml
+    ├── env.yaml
 	├── config
 	│      ├── config.yaml
 	│ 
