@@ -30,7 +30,7 @@ Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for 
 
 **Launching the pipeline 
 
-snakemake  --use-conda --cores all
+snakemake  --use-conda --cores all 
 
 	├── .gitignore
 	├── README.md
