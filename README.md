@@ -16,6 +16,7 @@ Use (https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html) for 
 - env.yaml (need conda with bioconda and conda-forge and dependancies for all rules in snakefile)
 
 **dependencies:
+
  	- FastQC==0.11.9
 	- Cutadapt==3.5                            
 	- Bowtie2                                
