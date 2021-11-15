@@ -1,6 +1,6 @@
 # ATACSEQ WORKFLOW FOR High Performance Computing Class
 
-_DIOP Khadidiatou_
+<h1>DIOP Khadidiatou</h1>
 
 _Université Clermont auvergne HPC 2021_
 
