@@ -41,14 +41,14 @@ snakemake  --use-conda --cores all
 	├── .gitignore
 	├── README.md
 	├──Snakefile
-        ├── env.yaml
+      ├── env.yaml
 	├── config
 	│      ├── config.yaml
 	│ 
 	├── data
 	│   └── mydatalocal
 	│        └── atacseq 
-     |             ├── bowtie2
+    |            ├── bowtie2
 	│                └──subset
 	└── results
   
