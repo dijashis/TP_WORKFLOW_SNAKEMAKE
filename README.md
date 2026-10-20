@@ -1,4 +1,4 @@
-# ATACSEQ WORKFLOW FOR High Performance Computing Class
+# ATACSEQ WORKFLOW HPC
 
 ### DIOP Khadidiatou
 
